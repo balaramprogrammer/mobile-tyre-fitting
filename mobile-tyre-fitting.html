@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>First Class Mobile Tyre</title>
+      <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+   </head>
+   <body>
+      <div class="container-fluid">
+         <!-- Navbar -->
+         <nav id="main-navbar" class="navbar navbar-dark custom-nav"
+            style="margin-left: -12px; position: fixed; top: 0; width: 100%; z-index: 1030; height: 60px; padding: 0 1rem; overflow-x: auto;">
+            <div id="navbar-container" class="d-flex justify-content-between align-items-center" style="height: 100%; min-width: 600px;">
+               <!-- Left: Brand + Menu -->
+               <div id="navbar-left" class="d-flex align-items-center container" >
+                  <a id="navbar-brand" class="navbar-brand fw-bold me-4" href="./index.html">Home</a>
+                  <!-- Menu items with horizontal scroll -->
+                  <ul id="navbar-list" class="navbar-nav d-flex flex-row mb-0" style="white-space: nowrap;">
+                     <li id="nav-services" class="nav-item me-3"><a class="nav-link" href="#services-section">Services</a></li>
+                     <li id="nav-coverage" class="nav-item me-3"><a class="nav-link" href="#coverage-section">Coverage</a></li>
+                     <li id="nav-how" class="nav-item me-3"><a class="nav-link" href="#how-section">How It Works</a></li>
+                     <li id="nav-brands" class="nav-item me-3"><a class="nav-link" href="#brands-section">Brands</a></li>
+                     <li id="nav-gallery" class="nav-item me-3"><a class="nav-link" href="#gallery-section">Gallery</a></li>
+                     <li id="nav-gallery" class="nav-item me-3"><a class="nav-link" href="./mobile-tyre-fitting.html">Mobile Tyre Fitting</a></li>
+                  </ul>
+               </div>
+               <!-- Right: Call Now Button -->
+            </div>
+            <div id="navbar-right" class="d-flex align-items-center">
+               <a id="call-now-btn" href="tel:+1234567890" class="btn call-btn">
+               <i class="fa-solid fa-phone"></i> Call Now
+               </a>
+            </div>
+         </nav>
+         <!-- Address Bar -->
+         <div id="address-bar" class="address-bar text-center" 
+            style="position: fixed; top: 60px; width: 100%; background:#f8f9fa; z-index: 1020; padding:12px 0; font-size: 1.5rem;">
+            <i class="fa-solid fa-location-dot"></i>
+            168 Tooting Bec Road, SW17 8BH
+         </div>
+      </div>
+      <!-- Spacer to prevent content overlap -->
+      <div id="header-spacer" style="height: 112px;"></div>
+      <!-- Spacer to prevent content overlap -->
+      <div class="service-heading">
+         <h1>Expert Tyre Fitting for a Smooth & Safe Drive</h1>
+         <p class="service-sub">24 Hours Emergency Tyre Fitting Service Available</p>
+      </div>
+      <!-- Hero Section -->
+      <section class="text-center" style="background-color:#ffffff;">
+         <div class="container">
+            <!-- Logo -->
+            <img src="./images/img01.png" class="logo img-fluid mb-4" style="max-width:200px;">
+            <!-- Call Buttons -->
+            <div class="call-buttons d-flex flex-column flex-md-row justify-content-center mb-4 gap-3">
+               <a href="tel:07831572519" class="btn btn-danger d-flex align-items-center justify-content-center">
+               <i class="fa-solid fa-phone me-2"></i> CALL 07831 572519
+               </a>
+               <a href="tel:07909120740" class="btn btn-danger d-flex align-items-center justify-content-center">
+               <i class="fa-solid fa-phone me-2"></i> CALL 07909 120740
+               </a>
+            </div>
+            <!-- Rating + RAC Section -->
+            <div class="row align-items-center text-center text-md-start mb-4">
+               <!-- Google Rating -->
+               <div class="col-md-6 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+                  <div>
+                     <p class="mb-1 fw-bold">Google Rating</p>
+                     <div>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                        <span class="ms-2">4.5 / 5</span>
+                     </div>
+                  </div>
+               </div>
+               <!-- RAC Logo -->
+               <div class="col-md-6 d-flex align-items-center justify-content-center justify-content-md-end mb-3 mb-md-0">
+                  <img src="./images/rac.png" 
+                     alt="RAC Logo" style="height:60px;">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="py-5" style="background-color:#ffffff;">
+         <div class="container text-center">
+            <!-- Section Heading -->
+            <h2 class="fw-bold mb-4">Professional Mobile Tyre Fitting Services</h2>
+            <!-- Services Grid -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+               <!-- Emergency Call-Out -->
+               <div class="col">
+                  <div class="p-3 shadow rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                     <i class="fa-solid fa-triangle-exclamation fs-2 text-danger mb-2"></i>
+                     <h5 class="fw-bold">Emergency Call-Out</h5>
+                     <p class="mb-0">Fast response time</p>
+                     <p class="mb-0">We aim to arrive within 30-45 minutes</p>
+                  </div>
+               </div>
+               <!-- Open 24/7 -->
+               <div class="col">
+                  <div class="p-3 shadow rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                     <i class="fa-regular fa-clock fs-2 text-warning mb-2"></i>
+                     <h5 class="fw-bold">Open 24/7 (365 days)</h5>
+                     <p class="mb-0">We come to you</p>
+                  </div>
+               </div>
+               <!-- Professional Tyre Fitting -->
+               <div class="col">
+                  <div class="p-3 shadow rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                     <i class="fa-solid fa-shield fs-2 text-success mb-2"></i>
+                     <h5 class="fw-bold">Professional Tyre Fitting</h5>
+                     <p class="mb-0">Call For Mobile Tyre Support</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Hero Section -->      
+      <section class="service-section py-5">
+         <div class="container">
+            <div class="row align-items-center">
+               <!-- LEFT CONTENT -->
+               <div class="col-lg-6">
+                  <div class="available-badge">
+                     <span class="dot"></span> Available Now
+                  </div>
+                  <h1 class="service-title mb-4">
+                     24X7 Call-out service
+                  </h1>
+                  <div class="feature-box">
+                     <p><i class="fa-solid fa-circle-check"></i> Emergency callout</p>
+                     <p><i class="fa-solid fa-circle-check"></i> Fast response Time</p>
+                     <p><i class="fa-solid fa-circle-check"></i> Available day or night</p>
+                  </div>
+                  <p class="address mt-4">
+                     168 Tooting Bec Road, SW17 8BH
+                  </p>
+                  <p class="whatsapp">
+                     <i class="fa-brands fa-whatsapp"></i>
+                     Or message us on WhatsApp for faster response
+                  </p>
+                  <!-- FEATURES -->
+                  <div class="row service-icons mt-4 text-center">
+                     <div class="col-md-4 col-12 mb-3 d-flex justify-content-center">
+                        <div class="p-4  rounded d-flex flex-column align-items-center">
+                           <i class="fa-regular fa-clock fs-2 mb-2 text-danger"></i>
+                           <p class="mb-0">Open 24/7 (365 days)</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-12 mb-3 d-flex justify-content-center">
+                        <div class="p-4  rounded d-flex flex-column align-items-center">
+                           <i class="fa-solid fa-location-dot fs-2 mb-2 text-danger"></i>
+                           <p class="mb-0">We come to you</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-12 mb-3 d-flex justify-content-center">
+                        <div class="p-4  rounded d-flex flex-column align-items-center">
+                           <i class="fa-solid fa-shield fs-2 mb-2 text-danger"></i>
+                           <p class="mb-0">Safe, professional fitting</p>
+                        </div>
+                     </div>
+                  </div>
+                  <p class="approved mt-4">Approved by</p>
+                  <div class="brands mb-2">
+                     <span class="brand rac">RAC</span>
+                     <span class="brand aa">AA</span>
+                  </div>
+               </div>
+               <!-- RIGHT IMAGES -->
+               <div class="col-lg-6">
+                  <div class="row">
+                     <div class="col-6">
+                        <img src="./images/service01.jpg" class="img-fluid service-img">
+                     </div>
+                     <div class="col-6">
+                        <img src="./images/service02.png" class="img-fluid service-img">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="image-section"  id="services-section">
+         <img src="./images/top-service.png" alt="banner image">
+      </div>
+      <section class="services-section py-5">
+         <div class="container text-center">
+            <div class="service-badge">Our Services</div>
+            <h2 class="service-title">What We Do</h2>
+            <p class="service-subtitle">
+               Professional mobile tyre services wherever you are in London
+            </p>
+            <div class="row mt-5 g-4">
+               <!-- CARD 1 -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="service-card">
+                     <div class="icon-box">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                     </div>
+                     <h5>24/7 Emergency Call-Out</h5>
+                     <p>
+                        Stranded with a flat? We'll be there fast,
+                        day or night, anywhere in London.
+                     </p>
+                     <a href="#" class="btn call-btn">
+                     <i class="fa-solid fa-phone"></i> Call Now
+                     </a>
+                  </div>
+               </div>
+               <!-- CARD 2 -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="service-card">
+                     <div class="icon-box">
+                        <i class="fa-regular fa-circle"></i>
+                     </div>
+                     <h5>Mobile Tyre Replacement</h5>
+                     <p>
+                        New tyres fitted at your location. We source budget to premium brands.
+                     </p>
+                     <a href="#" class="btn call-btn">
+                     <i class="fa-solid fa-phone"></i> Call Now
+                     </a>
+                  </div>
+               </div>
+               <!-- CARD 3 -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="service-card">
+                     <div class="icon-box">
+                        <i class="fa-solid fa-wrench"></i>
+                     </div>
+                     <h5>Puncture Repair / Assessment</h5>
+                     <p>
+                        Quick assessment and repair if possible.
+                        Honest advice if replacement is needed.
+                     </p>
+                     <a href="#" class="btn call-btn">
+                     <i class="fa-solid fa-phone"></i> Call Now
+                     </a>
+                  </div>
+               </div>
+               <!-- CARD 4 -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="service-card">
+                     <div class="icon-box">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                     </div>
+                     <h5>Tyre Swap (Seasonal / Planned)</h5>
+                     <p>
+                        Switching to winter or summer tyres?
+                        We come to you at your convenience.
+                     </p>
+                     <a href="#" class="btn call-btn">
+                     <i class="fa-solid fa-phone"></i> Call Now
+                     </a>
+                  </div>
+               </div>
+               <!-- CARD 5 -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="service-card">
+                     <div class="icon-box">
+                        <i class="fa-solid fa-gear"></i>
+                     </div>
+                     <h5>Valve & TPMS Help</h5>
+                     <p>
+                        Valve replacement and TPMS sensor assistance.
+                        Keep your system working properly.
+                     </p>
+                     <a href="#" class="btn call-btn">
+                     <i class="fa-solid fa-phone"></i> Call Now
+                     </a>
+                  </div>
+               </div>
+               <!-- CARD 6 -->
+               <div class="col-lg-4 col-md-6">
+                  <div class="service-card">
+                     <div class="icon-box">
+                        <i class="fa-solid fa-key"></i>
+                     </div>
+                     <h5>Locking Wheel Nut Support</h5>
+                     <p>
+                        Lost your locking nut key?
+                        We can help remove and replace your wheel nuts.
+                     </p>
+                     <a href="#" class="btn call-btn">
+                     <i class="fa-solid fa-phone"></i> Call Now
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="coverage-section" id="coverage-section">
+         <div class="container text-center">
+            <div class="service-badge">📍 Service Coverage</div>
+            <h2 class="coverage-title">
+               Covering All London <span>+ Outskirts</span>
+            </h2>
+            <p class="coverage-subtitle">
+               Based in South London — we cover Greater London and surrounding areas within 30 minutes response time.
+            </p>
+            <div class="search-box">
+               <input type="text" class="form-control" placeholder="Search your area (e.g., Croydon, Westminster...)">
+            </div>
+            <div class="filter-buttons">
+               <button class="btn active" data-lat="51.509865" data-lng="-0.118092" data-zoom="10">All Areas</button>
+               <button class="btn" data-lat="51.461" data-lng="-0.191" data-zoom="13">South</button>
+               <button class="btn" data-lat="51.515" data-lng="-0.127" data-zoom="13">Central</button>
+               <button class="btn" data-lat="51.56" data-lng="-0.12" data-zoom="13">North</button>
+               <button class="btn" data-lat="51.52" data-lng="-0.07" data-zoom="13">East</button>
+               <button class="btn" data-lat="51.51" data-lng="-0.29" data-zoom="13">West</button>
+               <button class="btn" data-lat="51.40" data-lng="-0.3" data-zoom="12">Outskirts</button>
+            </div>
+            <!-- Map container -->
+            <div class="map-container" style="height: 400px; width: 100%;">
+               <div id="map" style="height: 100%; width: 100%;"></div>
+            </div>
+         </div>
+      </section>
+      <!-- Leaflet CSS & JS -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+      <script>
+         // Initialize the map centered on London
+         var map = L.map('map').setView([51.509865, -0.118092], 10);
+         
+         // Add OpenStreetMap tiles
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+             attribution: '&copy; OpenStreetMap contributors'
+         }).addTo(map);
+         
+         // Add a marker (optional)
+         var marker = L.marker([51.509865, -0.118092]).addTo(map)
+             .bindPopup('All London Areas')
+             .openPopup();
+         
+         // Handle button clicks
+         document.querySelectorAll('.filter-buttons .btn').forEach(function(button) {
+             button.addEventListener('click', function() {
+                 // Remove "active" class from all buttons
+                 document.querySelectorAll('.filter-buttons .btn').forEach(b => b.classList.remove('active'));
+                 // Add "active" to clicked button
+                 this.classList.add('active');
+         
+                 // Get coordinates and zoom from data attributes
+                 var lat = parseFloat(this.dataset.lat);
+                 var lng = parseFloat(this.dataset.lng);
+                 var zoom = parseInt(this.dataset.zoom);
+         
+                 // Move map to selected area
+                 map.setView([lat, lng], zoom);
+         
+                 // Update marker
+                 marker.setLatLng([lat, lng])
+                       .bindPopup(this.textContent)
+                       .openPopup();
+             });
+         });
+      </script>
+      <section class="process-section py-5" id="how-section">
+         <div class="container text-center">
+            <div class="badge-title text-danger">Simple Process</div>
+            <h2 class="section-title mt-3">How It Works</h2>
+            <p class="section-subtitle">
+               From your call to back on the road — here's what to expect
+            </p>
+            <div class="row align-items-center mt-5 process-row">
+               <!-- Step 1 -->
+               <div class="col-md-3 text-center position-relative">
+                  <div class="step-box">
+                     <span class="step-number">01</span>
+                     <i class="bi bi-telephone"></i>
+                  </div>
+                  <h5 class="mt-3">Call / WhatsApp</h5>
+                  <p class="step-text">
+                     Get in touch with us anytime, 24/7.  
+                     Tell us about your situation.
+                  </p>
+               </div>
+               <!-- Arrow -->
+               <div class="arrow d-none d-md-block">→</div>
+               <!-- Step 2 -->
+               <div class="col-md-3 text-center position-relative">
+                  <div class="step-box">
+                     <span class="step-number">02</span>
+                     <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <h5 class="mt-3">Share Details</h5>
+                  <p class="step-text">
+                     Send your location and tyre size (or reg). We'll guide you if you're unsure.
+                  </p>
+               </div>
+               <div class="arrow d-none d-md-block">→</div>
+               <!-- Step 3 -->
+               <div class="col-md-3 text-center position-relative">
+                  <div class="step-box">
+                     <span class="step-number">03</span>
+                     <i class="bi bi-wrench"></i>
+                  </div>
+                  <h5 class="mt-3">We Arrive & Fit</h5>
+                  <p class="step-text">
+                     Our technician comes to you with the right tyres and equipment.
+                  </p>
+               </div>
+               <div class="arrow d-none d-md-block">→</div>
+               <!-- Step 4 -->
+               <div class="col-md-3 text-center position-relative">
+                  <div class="step-box">
+                     <span class="step-number">04</span>
+                     <i class="bi bi-truck"></i>
+                  </div>
+                  <h5 class="mt-3">Drive Safe</h5>
+                  <p class="step-text">
+                     Back on the road quickly with professionally fitted tyres.
+                  </p>
+               </div>
+            </div>
+            <div class="info-box mt-5">
+               💡 Don't know your tyre size?
+               <span>We'll guide you on the call</span>
+            </div>
+         </div>
+      </section>
+      <section class="tyre-section py-5" id="brands-section">
+         <div class="container text-center">
+            <div class="section-badge text-danger">🔄 Wide Selection</div>
+            <h2 class="section-title mt-3">Tyres for Every Budget</h2>
+            <p class="section-subtitle">
+               We source from budget to premium brands to match your needs and budget
+            </p>
+            <div class="row justify-content-center mt-5 g-4">
+               <!-- Budget -->
+               <div class="col-md-4">
+                  <div class="tyre-card">
+                     <div class="icon-circle">✔</div>
+                     <h5>Budget</h5>
+                     <p>Quality at great prices</p>
+                  </div>
+               </div>
+               <!-- Mid Range -->
+               <div class="col-md-4">
+                  <div class="tyre-card">
+                     <div class="icon-circle">✔</div>
+                     <h5>Mid-Range</h5>
+                     <p>Best value for most drivers</p>
+                  </div>
+               </div>
+               <!-- Premium -->
+               <div class="col-md-4">
+                  <div class="tyre-card">
+                     <div class="icon-circle">✔</div>
+                     <h5>Premium</h5>
+                     <p>Top performance brands</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Brand Logos -->
+            <div class="brand-logos mt-5">
+               <div class="brand-item">
+                  <img src="./images/Budget01.png" alt="Michelin">
+                  <span>Michelin</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget02.png" alt="Continental">
+                  <span>Continental</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget03.png" alt="Pirelli">
+                  <span>Pirelli</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget04.png" alt="Bridgestone">
+                  <span>Bridgestone</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget04.png" alt="Goodyear">
+                  <span>Goodyear</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget05.png" alt="Dunlop">
+                  <span>Dunlop</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget05.png" alt="Hankook">
+                  <span>Hankook</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget06.png" alt="Kumho">
+                  <span>Kumho</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget07.png" alt="Falken">
+                  <span>Falken</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget09.png" alt="Toyo">
+                  <span>Toyo</span>
+               </div>
+               <div class="brand-item">
+                  <img src="./images/Budget10.png" alt="Nexen">
+                  <span>Nexen</span>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="work-gallery" id="gallery-section">
+         <div class="container">
+            <div class="section-title text-center">
+               <h5>Our Work</h5>
+               <h2>Gallery</h2>
+               <p style="font-size: medium;">See our mobile tyre fitting service in action across London</p>
+            </div>
+            <div class="row g-4">
+               <div class="col-lg-4 col-md-6">
+                  <div class="gallery-box">
+                     <img src="images/tyre1.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="gallery-box">
+                     <img src="images/tyre2.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="gallery-box">
+                     <img src="images/tyre3.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="gallery-box">
+                     <img src="images/tyre4.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="gallery-box">
+                     <img src="images/tyre5.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="gallery-box">
+                     <img src="images/tyre6.jpg" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="emergency-tyre-section">
+         <div class="container">
+            <p class="response-time">⚡ Average response time: 30 minutes</p>
+            <h1>Need Emergency Tyre Help?</h1>
+            <p class="lead">We're Available 24/7</p>
+            <p>Call now and we'll be on our way. Professional mobile tyre service across London — day or night.</p>
+            <div class="d-flex justify-content-center flex-wrap">
+               <a href="tel:07831572519" class="btn btn-light btn-custom">📞 Call 07831 572519</a>
+               <a href="tel:07909120740" class="btn btn-light btn-custom">📞 Call 07909 120740</a>
+               <a href="https://wa.me/447831572519" class="btn btn-success btn-custom">💬 Message on WhatsApp</a>
+            </div>
+            <p class="contact-info mt-4">🕒 Open 24 hours • 7 days a week • 365 days a year</p>
+         </div>
+      </section>
+      <footer class="footer-section">
+         <div class="container">
+            <div class="row">
+               <!-- Left Column -->
+               <div class="col-md-4">
+                  <h5 class="footer-title">FIRST CLASS MOBILE TYRES</h5>
+                  <p>
+                     Professional 24/7 mobile tyre fitting service covering all of London and surrounding areas. 
+                     Fast, reliable, and fairly priced.
+                  </p>
+               </div>
+               <!-- Contact Column -->
+               <div class="col-md-4">
+                  <h5 class="footer-title">Contact</h5>
+                  <ul class="footer-contact p-0">
+                     <li>📞 07831 572519</li>
+                     <li>📞 07909 120740</li>
+                     <li>✉ firstclassmobiletyres15@gmail.com</li>
+                     <li>📍 South London</li>
+                  </ul>
+               </div>
+               <!-- Hours Column -->
+               <div class="col-md-4">
+                  <h5 class="footer-title">Hours</h5>
+                  <p>🕒 <span class="footer-hours">Open 24/7</span></p>
+                  <p>365 days a year</p>
+                  <p>Including bank holidays</p>
+               </div>
+            </div>
+            <!-- Bottom Footer -->
+            <div class="row footer-bottom align-items-center">
+               <div class="col-md-6">
+                  © 2026 First Class Mobile Tyres. All rights reserved.
+               </div>
+               <div class="col-md-6 text-md-end footer-links">
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">Terms of Service</a>
+               </div>
+            </div>
+         </div>
+         <div style="position:fixed; right:15px; top:50%; transform:translateY(-50%); z-index:9999;">
+            <!-- Call Button -->
+            <a href="tel:+911234567890"
+               style="
+               width:55px; height:55px; border-radius:50%;
+               display:flex; align-items:center; justify-content:center;
+               background-color:#dc3545; color:#fff; text-decoration:none;
+               box-shadow: 0 0 0 0 rgba(220,53,69,0.6);
+               animation: bubbleRed 2s infinite;
+               margin-bottom:10px;
+               ">
+            <i class="fa-solid fa-phone"></i>
+            </a>
+            <!-- WhatsApp Button -->
+            <a href="https://wa.me/911234567890" target="_blank"
+               style="
+               width:55px; height:55px; border-radius:50%;
+               display:flex; align-items:center; justify-content:center;
+               background-color:#198754; color:#fff; text-decoration:none;
+               box-shadow: 0 0 0 0 rgba(25,135,84,0.6);
+               animation: bubbleGreen 2s infinite;
+               ">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+         </div>
+         <!-- Inline Keyframes -->
+         <script>
+            const styleSheet = document.createElement("style");
+            styleSheet.type = "text/css";
+            styleSheet.innerText = `
+            @keyframes bubbleRed{
+            0% { box-shadow: 0 0 0 0 rgba(220,53,69,0.6); }
+            70% { box-shadow: 0 0 0 15px rgba(220,53,69,0); }
+            100% { box-shadow: 0 0 0 0 rgba(220,53,69,0); }
+            }
+            @keyframes bubbleGreen{
+            0% { box-shadow: 0 0 0 0 rgba(25,135,84,0.6); }
+            70% { box-shadow: 0 0 0 15px rgba(25,135,84,0); }
+            100% { box-shadow: 0 0 0 0 rgba(25,135,84,0); }
+            }`;
+            document.head.appendChild(styleSheet);
+         </script>
+         <button onclick="scrollToTop()" 
+            style="position:fixed; bottom:20px; right:20px; display:none;" 
+            class="btn btn-danger rounded-circle shadow" 
+            id="scrollTopBtn">
+         <i class="fa-solid fa-arrow-up"></i>
+         </button>
+      </footer>
+      <script>
+         let scrollBtn = document.getElementById("scrollTopBtn");
+         
+         window.onscroll = function() {
+           if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+             scrollBtn.style.display = "block";
+           } else {
+             scrollBtn.style.display = "none";
+           }
+         };
+         
+         function scrollToTop() {
+           window.scrollTo({
+             top: 0,
+             behavior: "smooth"
+           });
+         }
+      </script>
+   </body>
+</html>

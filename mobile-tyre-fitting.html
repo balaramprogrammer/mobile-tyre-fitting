@@ -14,62 +14,111 @@
    <body>
       <div class="container-fluid">
          <!-- Navbar -->
-         <nav id="main-navbar" class="navbar navbar-dark custom-nav"
-            style="margin-left: -12px; position: fixed; top: 0; width: 100%; z-index: 1030; height: 60px; padding: 0 1rem; overflow-x: auto;">
-            <div id="navbar-container" class="d-flex justify-content-between align-items-center" style="height: 100%; min-width: 600px;">
-               <!-- Left: Brand + Menu -->
-               <div id="navbar-left" class="d-flex align-items-center container" >
-                  <a id="navbar-brand" class="navbar-brand fw-bold me-4" href="./index.html">Home</a>
-                  <!-- Menu items with horizontal scroll -->
-                  <ul id="navbar-list" class="navbar-nav d-flex flex-row mb-0" style="white-space: nowrap;">
-                     <li id="nav-services" class="nav-item me-3"><a class="nav-link" href="#services-section">Services</a></li>
-                     <li id="nav-coverage" class="nav-item me-3"><a class="nav-link" href="#coverage-section">Coverage</a></li>
-                     <li id="nav-how" class="nav-item me-3"><a class="nav-link" href="#how-section">How It Works</a></li>
-                     <li id="nav-brands" class="nav-item me-3"><a class="nav-link" href="#brands-section">Brands</a></li>
-                     <li id="nav-gallery" class="nav-item me-3"><a class="nav-link" href="#gallery-section">Gallery</a></li>
-                     <li id="nav-gallery" class="nav-item me-3"><a class="nav-link" href="./mobile-tyre-fitting.html">Mobile Tyre Fitting</a></li>
-                  </ul>
-               </div>
-               <!-- Right: Call Now Button -->
-            </div>
-            <div id="navbar-right" class="d-flex align-items-center">
-               <a id="call-now-btn" href="tel:+1234567890" class="btn call-btn">
-               <i class="fa-solid fa-phone"></i> Call Now
-               </a>
-            </div>
-         </nav>
+<nav id="main-navbar" class="navbar navbar-dark custom-nav" 
+style="margin-left: -12px; position: fixed; top: 0; width: 100%; z-index: 1030; height: 60px; padding: 0 1rem; overflow-x: auto;">
+
+   <div id="navbar-container" class="d-flex justify-content-between align-items-center" style="height: 100%; min-width: 600px;">
+
+      <!-- Left: Logo + Menu -->
+      <div id="navbar-left" class="d-flex align-items-center container">
+
+         <!-- Logo -->
+         <a href="#home-section" class="me-3">
+            <img src="./images/logo.png" alt="Logo" style="height:40px;">
+         </a>
+
+         <!-- Brand -->
+         <a id="navbar-brand" class="navbar-brand fw-bold me-4" href="#home-section">Home</a>
+
+         <!-- Menu items -->
+         <ul id="navbar-list" class="navbar-nav d-flex flex-row mb-0" style="white-space: nowrap;">
+            <li id="nav-services" class="nav-item me-3"><a class="nav-link" href="#services-section">Services</a></li>
+            <li id="nav-coverage" class="nav-item me-3"><a class="nav-link" href="#coverage-section">Coverage</a></li>
+            <li id="nav-how" class="nav-item me-3"><a class="nav-link" href="#how-section">How It Works</a></li>
+            <li id="nav-brands" class="nav-item me-3"><a class="nav-link" href="#brands-section">Brands</a></li>
+            <li id="nav-gallery" class="nav-item me-3"><a class="nav-link" href="#gallery-section">Gallery</a></li>
+            <li class="nav-item me-3"><a class="nav-link" href="./mobile-tyre-fitting.html" target="_blank">Mobile Tyre Fitting</a></li>
+         </ul>
+
+      </div>
+
+   </div>
+</nav>
          <!-- Address Bar -->
-         <div id="address-bar" class="address-bar text-center" 
-            style="position: fixed; top: 60px; width: 100%; background:#ffffff; z-index: 1020; padding:12px 0; font-size: 1.5rem;">
-            <i class="fa-solid fa-location-dot"></i>
-            168 Tooting Bec Road, SW17
-         </div>
+       <div id="address-bar" class="address-bar text-center" 
+style="position: fixed; top: 60px; width: 100%; background:#ffffff; z-index:1020; padding:12px 0; font-size:1.1rem;">
+
+    <!-- Google Rating -->
+    <i class="fa-brands fa-google" style="color:#4285F4;"></i>
+
+    <span style="color:#f4b400;">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+    </span>
+
+    <strong>4.7</strong>
+    <span style="color:#555;"></span>
+
+</div>
       </div>
       <!-- Spacer to prevent content overlap -->
       <div id="header-spacer" style="height: 112px;"></div>
       <!-- Spacer to prevent content overlap -->
-      <div class="service-heading mt-3 mb-3">
-         <h1>Expert Tyre Fitting for a Smooth & Safe Drive</h1>
-         <p class="service-sub">24 Hours Emergency Tyre Fitting Service Available</p>
+   
+      <section style="background:#e9e9e9; padding:60px 15px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        
+        <h1 style="color:#ff0000; font-weight:800; letter-spacing:2px; font-size:clamp(32px,6vw,60px);">
+          EXPERT MOBILE <br> TYRE FITTING <br>SERVICE
+        </h1>
+
+        <h3 style="color:#222; font-weight:700; margin-top:15px; font-size:clamp(18px,3vw,28px);">
+          WE COME TO YOU
+        </h3>
+
+        <h2 style="color:#ff0000; font-weight:800; margin-top:20px; font-size:clamp(24px,4vw,40px);">
+          30-45 MINUTES ETA
+        </h2>
+
       </div>
+    </div>
+  </div>
+</section>
       <!-- Hero Section -->
       <section class="text-center" style="background-color:#ffffff;">
          <div class="container">
             <!-- Logo -->
-            <img src="./images/img01.png" class="logo img-fluid mb-4" style="max-width:200px;">
+            <!-- <img src="./images/img01.png" class="logo img-fluid mb-4" style="max-width:200px;"> -->
             <!-- Call Buttons -->
-            <div class="call-buttons d-flex flex-column flex-md-row justify-content-center mb-4 gap-3">
-               <a href="tel:07831572519" class="btn btn-danger d-flex align-items-center justify-content-center">
-               <i class="fa-solid fa-phone me-2"></i> CALL 07831 572519
-               </a>
-               <a href="tel:07909120740" class="btn btn-danger d-flex align-items-center justify-content-center">
-               <i class="fa-solid fa-phone me-2"></i> CALL 07909 120740
-               </a>
-            </div>
+         <div class="call-buttons d-flex flex-column flex-md-row justify-content-center mb-4 ">
+    <!-- <a href="tel:07831572519" 
+       class="d-flex align-items-center justify-content-center" 
+       style="background-color: red; color: white; border-radius: 12px; padding: 10px 20px; text-decoration: none;">
+       <i class="fa-solid fa-phone me-2"></i> CALL 07831 572519
+    </a>
+    <a href="tel:07909120740" 
+       class="d-flex align-items-center justify-content-center" 
+       style="background-color: red; color: white; border-radius: 12px; padding: 10px 20px; text-decoration: none;">
+       <i class="fa-solid fa-phone me-2"></i> CALL 07909 120740
+    </a> -->
+     <div class="service-heading ">
+         
+         <p class="service-sub"><a href="tel:07831572519" 
+       class="d-flex align-items-center justify-content-center" 
+       style=" color: white; border-radius: 12px; padding: 10px 20px; text-decoration: none; font-size: 23px;">
+       <i class="fa-solid fa-phone me-2"></i> CALL 07831 572519
+    </a></p>
+      </div>
+</div>
             <!-- Rating + RAC Section -->
             <div class="row align-items-center text-center text-md-start mb-4">
                <!-- Google Rating -->
-               <div class="col-md-6 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+               <!-- <div class="col-md-6 mb-3 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
                   <div>
                      <p class="mb-1 fw-bold">Google Rating</p>
                      <div>
@@ -81,7 +130,7 @@
                         <span class="ms-2">4.5 / 5</span>
                      </div>
                   </div>
-               </div>
+               </div> -->
                <!-- RAC Logo -->
                <div class="col-md-6 d-flex align-items-center justify-content-center justify-content-md-end mb-3 mb-md-0">
                   <img src="./images/rac.png" 
@@ -90,41 +139,6 @@
             </div>
          </div>
       </section>
-      <section class="py-5" style="background-color:#ffffff;">
-         <div class="container text-center">
-            <!-- Section Heading -->
-            <h2 class="fw-bold mb-4">Professional Mobile Tyre Fitting Services</h2>
-            <!-- Services Grid -->
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-               <!-- Emergency Call-Out -->
-               <div class="col">
-                  <div class="p-3 shadow rounded h-100 d-flex flex-column align-items-center justify-content-center">
-                     <i class="fa-solid fa-triangle-exclamation fs-2 text-danger mb-2"></i>
-                     <h5 class="fw-bold">Emergency Call-Out</h5>
-                     <p class="mb-0">Fast response time</p>
-                     <p class="mb-0">We aim to arrive within 30-45 minutes</p>
-                  </div>
-               </div>
-               <!-- Open 24/7 -->
-               <div class="col">
-                  <div class="p-3 shadow rounded h-100 d-flex flex-column align-items-center justify-content-center">
-                     <i class="fa-regular fa-clock fs-2 text-warning mb-2"></i>
-                     <h5 class="fw-bold">Open 24/7 (365 days)</h5>
-                     <p class="mb-0">We come to you</p>
-                  </div>
-               </div>
-               <!-- Professional Tyre Fitting -->
-               <div class="col">
-                  <div class="p-3 shadow rounded h-100 d-flex flex-column align-items-center justify-content-center">
-                     <i class="fa-solid fa-shield fs-2 text-success mb-2"></i>
-                     <h5 class="fw-bold">Professional Tyre Fitting</h5>
-                     <p class="mb-0">Call For Mobile Tyre Support</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- Hero Section -->      
       <section class="service-section py-5">
          <div class="container">
             <div class="row align-items-center">
@@ -142,7 +156,7 @@
                      <p><i class="fa-solid fa-circle-check"></i> Available day or night</p>
                   </div>
                   <p class="address mt-4">
-                     168 Tooting Bec Road, SW17 8BH
+                     168 Tooting Bec Road
                   </p>
                   <p class="whatsapp">
                      <i class="fa-brands fa-whatsapp"></i>
@@ -583,7 +597,7 @@
                   <ul class="footer-contact p-0">
                      <li>📞 07831 572519</li>
                      <li>📞 07909 120740</li>
-                     <li>✉ firstclassmobiletyres15@gmail.com</li>
+                     <!-- <li>✉ firstclassmobiletyres15@gmail.com</li> -->
                      <li>📍 South London</li>
                   </ul>
                </div>
@@ -606,7 +620,7 @@
                </div>
             </div>
          </div>
-         <div style="position:fixed; right:15px; top:50%; transform:translateY(-50%); z-index:9999;">
+         <div style="position:fixed; right:15px; top:75%; transform:translateY(-50%); z-index:9999;">
             <!-- Call Button -->
             <a href="tel:+911234567890"
                style="
